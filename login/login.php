@@ -5,7 +5,7 @@ include "../head.php";
 echo'
 <style>
 body {
-  background: url("ratatouille-sign.png") no-repeat center center fixed;
+  background: url("ratatouille-sign.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -30,12 +30,12 @@ body {
           <div class="row align-items-center g-lg-5 py-5">
             <div class="col-md-10 mx-auto col-lg-5">
               <form class="p-4 p-md-5  ">
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <div class="form-floating  mb-3">
+                    <input type="email" class="form-control shadow" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Email</label>
                 </div>
                   <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <input type="password" class="form-control shadow" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                   </div>
                 <button class="btn btn-lg btn-dark" type="submit">Sign up</button>
