@@ -11,6 +11,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
 .titolo1 { font-family: "Brush Script MT", cursive; font-size: 43px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 47.3px; }
 </style>
 </head>

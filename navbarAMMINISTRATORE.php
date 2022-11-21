@@ -7,7 +7,7 @@ echo'
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand px-2" href="#">NOME SITO </a>
+    <a class="navbar-brand px-2" href="homepage.php">NOME SITO </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -15,13 +15,18 @@ echo'
 
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item ">
-          <a class="nav-link active" href="#">Homepage</a>
+          <a class="nav-link active" href="homepage.php">Homepage</a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link active" href="#">Modifica Menù</a>
+          <a class="nav-link active dropdown-toggle" type = "button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Modifica Menù</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="gestioneCategorie.php">Gestione Categorie</a>
+          <a class="dropdown-item" href="gestioneElementi.php">Gestione Elementi</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
         </li>
         <li class="nav-item ">
-          <a class="nav-link active" href="#">Crea Avviso</a>
+          <a class="nav-link active" href="notifica.php">Crea Avviso</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link active" href="registra.php">Registra</a>

@@ -42,7 +42,7 @@ echo'
         <div class = "col-md-3 me-5">
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Tipo Utente</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <select class="form-select" id="exampleFormControlSelect1">
                         <option>Amministratore</option>
                         <option>Supervisore</option>
                         <option>Addetto Cucina</option>
@@ -55,7 +55,7 @@ echo'
 
         <div class = "d-sm-flex justify-content-center mt-4">
 
-            <button type="button" class="btn btn-outline-dark">Registra</button>
+            <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-person"></i> | Registra</button>
 
         </div>
 
