@@ -9,7 +9,7 @@ select.form-control {
 
 include "navbarAMMINISTRATORE.php";
 //inizio container id="toolbar"
-echo' <div class = "container ">';
+echo' <div class = "container mt-2">';
 
 echo'<div  class = "d-sm-flex">
 
@@ -83,7 +83,9 @@ echo'<div class = "mt-2">
 
 echo'<div class = "d-flex justify-content-center mt-3">
   <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-upload"></i> | Salva</button>
-</div>';
+</div>
+';
+
 
 echo'</div>';
 
@@ -104,6 +106,12 @@ echo"<script>
         })
         }
     }
+
+    $(document).ready(function() {
+
+      $('.js-example-basic-multiple').select2();
+  
+    });
 
     var \$table = \$('#table');
 

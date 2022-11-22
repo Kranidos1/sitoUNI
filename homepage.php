@@ -11,7 +11,7 @@ $(document).ready(function() {
     $(".js-example-basic-multiple").select2({
 
         width: "resolve",
-        maximumSelectionLength: 7
+        maximumSelectionLength: 7,
 
     });
     

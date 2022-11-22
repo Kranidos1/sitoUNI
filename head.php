@@ -44,6 +44,8 @@ echo'<!doctype html>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
     <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table-vue.min.js"></script>
 
+    <!--script nostro-->
+    <script src="testing.js"></script>
 
     
     
